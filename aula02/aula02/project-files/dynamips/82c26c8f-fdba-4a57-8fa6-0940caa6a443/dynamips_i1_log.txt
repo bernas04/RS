@@ -1,0 +1,16 @@
+Oct 15 16:29:42.811 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Oct 15 16:29:42.811 HYPERVISOR: Started on IP = localhost, TCP port = 60539.
+Oct 15 16:29:42.812 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 16:29:42.812 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/Universidade/2ano/RS/aula02/aula02/project-files/dynamips 
+Oct 15 16:29:42.812 GENERAL: working_dir=/home/joao/Desktop/Universidade/2ano/RS/aula02/aula02/project-files/dynamips
+Oct 15 16:29:42.812 HYPERVISOR: exec_cmd: nio_bridge create Hub1 
+Oct 15 16:29:42.902 HYPERVISOR: exec_cmd: nio create_udp udp-5110704e-3b74-4c9c-aa3a-9fb1b049f72a 10001 127.0.0.1 10000 
+Oct 15 16:29:42.902 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-5110704e-3b74-4c9c-aa3a-9fb1b049f72a 
+Oct 15 16:29:42.962 HYPERVISOR: exec_cmd: nio create_udp udp-74983951-acf6-4465-9249-d538b78fa81b 10002 127.0.0.1 10003 
+Oct 15 16:29:42.962 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-74983951-acf6-4465-9249-d538b78fa81b 
+Oct 15 16:29:49.790 HYPERVISOR: exec_cmd: nio bind_filter udp-74983951-acf6-4465-9249-d538b78fa81b 2 capture 
+Oct 15 16:29:49.790 HYPERVISOR: exec_cmd: nio setup_filter udp-74983951-acf6-4465-9249-d538b78fa81b 2 en10mb /home/joao/Desktop/Universidade/2ano/RS/aula02/aula02/project-files/captures/Hub1_Ethernet1_to_R1_FastEthernet00.pcap 
+Oct 15 16:56:44.645 HYPERVISOR: exec_cmd: nio_bridge delete Hub1 
+Oct 15 16:56:44.673 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 16:56:44.841 HYPERVISOR: Stopped.
+Oct 15 16:56:44.841 GENERAL: reset done.

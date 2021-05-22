@@ -1,0 +1,32 @@
+Oct 15 15:32:55.879 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Oct 15 15:32:55.879 HYPERVISOR: Started on IP = localhost, TCP port = 40131.
+Oct 15 15:32:55.889 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:32:55.890 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/Universidade/2ano/RS/aula01/project-files/dynamips 
+Oct 15 15:32:55.890 GENERAL: working_dir=/home/joao/Desktop/Universidade/2ano/RS/aula01/project-files/dynamips
+Oct 15 15:32:55.890 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/Universidade/2ano/RS/aula01/project-files/dynamips/a9a9f938-db47-4bf8-8f4f-93ab8bd8138b 
+Oct 15 15:32:55.890 GENERAL: working_dir=/home/joao/Desktop/Universidade/2ano/RS/aula01/project-files/dynamips/a9a9f938-db47-4bf8-8f4f-93ab8bd8138b
+Oct 15 15:32:55.890 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Oct 15 15:32:55.890 VM: VM R1 created.
+Oct 15 15:32:55.890 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Oct 15 15:32:55.890 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Oct 15 15:32:55.890 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 15 15:32:55.891 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Oct 15 15:32:55.891 HYPERVISOR: exec_cmd: vm set_ios R1 /home/joao/Transferências/c7200-jk9o3s-mz.123-8.T.bin 
+Oct 15 15:32:55.891 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Oct 15 15:32:55.891 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Oct 15 15:32:55.891 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Oct 15 15:32:55.892 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 15 15:32:55.892 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-FE-TX 
+Oct 15 15:32:55.892 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 15 15:32:55.892 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-FE-TX 
+Oct 15 15:32:55.892 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 15 15:32:55.892 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 PA-2FE-TX 
+Oct 15 15:33:44.304 HYPERVISOR: exec_cmd: nio create_udp udp-047d219d-2b8f-4c97-8234-ce55a2228b35 10002 127.0.0.1 10003 
+Oct 15 15:34:03.828 HYPERVISOR: exec_cmd: nio create_udp udp-93a94396-c750-47e1-8c8f-18c13d3c38a6 10006 127.0.0.1 10007 
+Oct 15 15:34:41.846 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 15 15:34:41.846 HYPERVISOR: exec_cmd: vm extract_config R1 
+Oct 15 15:34:41.846 HYPERVISOR: exec_cmd: vm delete R1 
+Oct 15 15:34:41.846 VM: VM R1 destroyed.
+Oct 15 15:34:41.846 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 15:34:42.004 HYPERVISOR: Stopped.
+Oct 15 15:34:42.005 GENERAL: reset done.

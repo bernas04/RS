@@ -1,0 +1,6 @@
+Pc1 envia arp request
+router envia arp reply
+pc1 envia ICMP request para router
+router envia arp request na vlan3
+pc6 envia arp reply para o router
+router envia icmp request para PC6

@@ -1,0 +1,30 @@
+Oct 15 15:33:01.219 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Oct 15 15:33:01.219 HYPERVISOR: Started on IP = localhost, TCP port = 40903.
+Oct 15 15:33:01.229 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:33:01.229 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/Universidade/2ano/RS/aula01/project-files/dynamips 
+Oct 15 15:33:01.229 GENERAL: working_dir=/home/joao/Desktop/Universidade/2ano/RS/aula01/project-files/dynamips
+Oct 15 15:33:01.230 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/Universidade/2ano/RS/aula01/project-files/dynamips/97eec5f8-7b2a-4c2e-a081-d4efdf28ab77 
+Oct 15 15:33:01.230 GENERAL: working_dir=/home/joao/Desktop/Universidade/2ano/RS/aula01/project-files/dynamips/97eec5f8-7b2a-4c2e-a081-d4efdf28ab77
+Oct 15 15:33:01.230 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Oct 15 15:33:01.230 VM: VM R2 created.
+Oct 15 15:33:01.230 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Oct 15 15:33:01.230 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Oct 15 15:33:01.231 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 15 15:33:01.231 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Oct 15 15:33:01.231 HYPERVISOR: exec_cmd: vm set_ios R2 /home/joao/Transferências/c7200-jk9o3s-mz.123-8.T.bin 
+Oct 15 15:33:01.231 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Oct 15 15:33:01.232 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Oct 15 15:33:01.232 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Oct 15 15:33:01.232 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 15 15:33:01.233 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-FE-TX 
+Oct 15 15:33:01.233 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 15 15:33:01.233 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-FE-TX 
+Oct 15 15:33:01.233 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 15 15:33:01.233 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 PA-2FE-TX 
+Oct 15 15:34:41.846 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 15 15:34:41.846 HYPERVISOR: exec_cmd: vm extract_config R2 
+Oct 15 15:34:41.846 HYPERVISOR: exec_cmd: vm delete R2 
+Oct 15 15:34:41.846 VM: VM R2 destroyed.
+Oct 15 15:34:41.847 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 15:34:42.338 HYPERVISOR: Stopped.
+Oct 15 15:34:42.338 GENERAL: reset done.

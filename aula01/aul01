@@ -1,0 +1,54 @@
+GN3
+
+PARA TER ACESSO À NET
+hardware address
+IPV4/IPV6
+Default gateway
+DNS Server (Domain Name system)
+
+HIERARQUIA
+-Servidores Root (poucos)
+-Servidores de nível 1 (.pt .com .edu .gov)
+-(.ua .meo .facebook)
+
+
+exercício 3
+www.ua.pt	193.136.173.58	
+ua.pt		193.136.172.175/193.136.172.173/193.136.172.174
+www.up.pt	193.137.55.13/IPv6 address 2001:690:2200:a10::13
+www.tvi.iol.pt	193.126.240.138
+www.sapo.pt	213.13.146.142
+www.tsf.pt	www.tsf.pt is an alias for few-prv-01.globalnoticias.pt.
+		few-prv-01.globalnoticias.pt is an alias for few-prv-ag01.globalnoticias.pt.
+		few-prv-ag01.globalnoticias.pt has address 148.69.168.38
+		few-prv-ag01.globalnoticias.pt has address 148.69.168.41
+		few-prv-ag01.globalnoticias.pt has address 148.69.168.40
+		few-prv-ag01.globalnoticias.pt has address 148.69.168.39
+www.clix.pt	195.23.128.74
+www.antena3.pt	94.46.160.176
+www.rtp.pt	www.rtp.pt is an alias for web.rtp-mog.map.fastly.net.
+		web.rtp-mog.map.fastly.net has address 151.101.134.133
+www.publico.pt	www.publico.pt is an alias for www.publico.pt.cdn.cloudflare.net.
+		www.publico.pt.cdn.cloudflare.net has address 104.22.79.206
+		www.publico.pt.cdn.cloudflare.net has address 104.22.78.206
+		www.publico.pt.cdn.cloudflare.net has address 172.67.37.74
+		www.publico.pt.cdn.cloudflare.net has IPv6 address 2606:4700:10::6816:4ece
+		www.publico.pt.cdn.cloudflare.net has IPv6 address 2606:4700:10::6816:4fce
+		www.publico.pt.cdn.cloudflare.net has IPv6 address 2606:4700:10::ac43:254a
+www.publico.clix.pt	www.publico.pt is an alias for www.publico.pt.cdn.cloudflare.net.
+			www.publico.pt.cdn.cloudflare.net has address 104.22.79.206
+			www.publico.pt.cdn.cloudflare.net has address 104.22.78.206
+			www.publico.pt.cdn.cloudflare.net has address 172.67.37.74
+			www.publico.pt.cdn.cloudflare.net has IPv6 address 2606:4700:10::6816:4ece
+			www.publico.pt.cdn.cloudflare.net has IPv6 address 2606:4700:10::6816:4fce
+			www.publico.pt.cdn.cloudflare.net has IPv6 address 2606:4700:10::ac43:254a
+
+www.google.com	216.58.201.164 (IPv6 address 2a00:1450:4003:80b::2004)
+www.google.pt	not found
+www.google.es	not found
+
+
+
+
+
+
